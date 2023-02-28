@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+ 
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1 id="myHeader">TO DO List</h1>
+    <input id="addButton" type="button" value="add" onclick="addTask()"/>
+    <input id="input" type="text" placeholder="enter next task"/>
+    
+     <hr>
+    
+    <ul id="tasks">
+    
+      <li id="final">
+    
+        <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+    
+        <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+    
+        make todo list
+    
+      </li>
+    
+     </ul>
+    
+    <hr>
+    <div id="divabout">
+    </div>
+    
+    
+    
+    
+    
+<footer>
+    <div><a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      
+    </div>
+    <div>Kshitij Shinde</div>
+    <div class="c">©2023</div>
+  </footer>
+  </body>
+</html>
